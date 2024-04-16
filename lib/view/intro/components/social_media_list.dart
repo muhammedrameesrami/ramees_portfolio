@@ -21,15 +21,15 @@ class SocialMediaIconList extends StatelessWidget {
                 quarterTurns: -3,
                 child: Text(
                   'Follow Me',
-                  style: Theme.of(context).textTheme.titleSmall!.copyWith(
+                  style: Theme.of(context).textTheme.titleMedium!.copyWith(
                         color: Colors.white,
-                        fontWeight: FontWeight.w500,
+                        fontWeight: FontWeight.w600,
                       ),
                 ),
               ),
               Container(
                 height: size.height * 0.06,
-                width: 3,
+                width: 5,
                 margin:
                     const EdgeInsets.symmetric(vertical: defaultPadding * 0.5),
                 decoration: BoxDecoration(

@@ -32,7 +32,8 @@ class CombineSubtitleText extends StatelessWidget {
             : ShaderMask(
                 shaderCallback: (bounds) {
                   return const LinearGradient(colors: [
-                    Colors.pink,
+                    Colors.white,
+                    Colors.blue,
                     Colors.blue,
                   ]).createShader(bounds);
                 },

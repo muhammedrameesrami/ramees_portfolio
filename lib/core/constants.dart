@@ -1,4 +1,4 @@
 class ProfileConstants {
-  static const name = "Shanul Hakeem";
-  static const profilePhoto = "Shanul Hakeem";
+  static const name = "Muhammed Ramees";
+  static const profilePhoto = "Ramees Rami";
 }

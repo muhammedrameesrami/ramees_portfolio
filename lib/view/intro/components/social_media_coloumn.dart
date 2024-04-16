@@ -12,16 +12,17 @@ class SocialMediaIconColumn extends StatelessWidget {
         SocialMediaIcon(
             icon: 'assets/icons/linkedin.svg',
             onTap: () => launchUrl(
-                Uri.parse('https://www.linkedin.com/in/hamad-anwar/'))),
+                Uri.parse('https://www.linkedin.com/in/mohammed-ramees1234/'))),
         SocialMediaIcon(
           icon: 'assets/icons/github.svg',
-          onTap: () => launchUrl(Uri.parse('https://github.com/Hamad-Anwar')),
+          onTap: () =>
+              launchUrl(Uri.parse('https://github.com/muhammedrameesrami')),
         ),
-        const SocialMediaIcon(
+        SocialMediaIcon(
           icon: 'assets/icons/dribble.svg',
+          onTap: () =>
+              launchUrl(Uri.parse('https://github.com/muhammedrameesrami')),
         ),
-        const SocialMediaIcon(icon: 'assets/icons/twitter.svg'),
-        const SocialMediaIcon(icon: 'assets/icons/linkedin.svg'),
       ],
     );
   }
