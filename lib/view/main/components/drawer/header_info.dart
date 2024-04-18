@@ -12,7 +12,7 @@ class AreaInfoText extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(
+          Text(overflow: TextOverflow.ellipsis ,
             title,
             style: const TextStyle(color: Colors.white),
           ),

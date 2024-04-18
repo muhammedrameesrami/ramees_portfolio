@@ -69,10 +69,10 @@ class AnimatedImageContainerState extends State<AnimatedImageContainer>
                       ? MediaQuery.sizeOf(context).width * 0.1
                       : 170,
               width: Responsive.isLargeMobile(context)
-                  ? MediaQuery.sizeOf(context).width * 0.3
+                  ? MediaQuery.sizeOf(context).width * 0.4
                   : Responsive.isTablet(context)
-                      ? MediaQuery.sizeOf(context).width * 0.1
-                      : 80,
+                      ? MediaQuery.sizeOf(context).width * 0.2
+                      : 90,
               fit: BoxFit.contain,
             ),
           ),

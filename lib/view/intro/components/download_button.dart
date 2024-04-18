@@ -11,7 +11,7 @@ class DownloadButton extends StatelessWidget {
     return InkWell(
       onTap: () {
         launchUrl(Uri.parse(
-            'https://drive.google.com/file/d/1HSIe7rdk8VtrAL4DQuybfMHQgDrQ6xNs/view?usp=sharing'));
+            'https://www.canva.com/design/DAGB65oH_bg/EAzpYtMfF1WHWOD_C2XoAA/edit'));
       },
       child: Container(
         alignment: Alignment.center,
@@ -19,25 +19,22 @@ class DownloadButton extends StatelessWidget {
             vertical: defaultPadding / 1.5, horizontal: defaultPadding * 2),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
-          boxShadow: const [
-            BoxShadow(color: Colors.blue, offset: Offset(0, -1), blurRadius: 5),
-            BoxShadow(color: Colors.red, offset: Offset(0, 1), blurRadius: 5),
-          ],
           gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                Colors.pink,
-                Colors.blue.shade900,
+                Colors.white,
+                Colors.blueAccent,
+                Colors.blue,
               ]),
         ),
         child: Row(
           children: [
             Text(
-              'Download CV',
+              'OPEN CV',
               style: Theme.of(context).textTheme.labelSmall!.copyWith(
-                  color: Colors.white,
-                  letterSpacing: 1.2,
+                  color: Colors.black,
+                  letterSpacing: 1.3,
                   fontWeight: FontWeight.bold),
             ),
             const SizedBox(
@@ -45,7 +42,7 @@ class DownloadButton extends StatelessWidget {
             ),
             const Icon(
               FontAwesomeIcons.download,
-              color: Colors.white70,
+              color: Colors.black,
               size: 15,
             )
           ],

@@ -14,8 +14,8 @@ class AnimatedLoadingText extends StatelessWidget {
         builder: (context, value, child) => Column(
           children: [
             LinearProgressIndicator(
-              backgroundColor: Colors.black,
-              color: Colors.deepPurpleAccent,
+              backgroundColor: Colors.white,
+              color: Colors.blueAccent,
               value: value,
             ),
             const SizedBox(
@@ -28,7 +28,7 @@ class AnimatedLoadingText extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   shadows: [
                     Shadow(
-                        color: Colors.pink,
+                        color: Colors.white,
                         blurRadius: 10,
                         offset: Offset(2, 2)),
                     Shadow(

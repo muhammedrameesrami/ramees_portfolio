@@ -24,7 +24,9 @@ class ProjectStack extends StatelessWidget {
         padding: const EdgeInsets.only(
             left: defaultPadding, right: defaultPadding, top: defaultPadding),
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(30), color: bgColor),
+            borderRadius: BorderRadius.circular(30), gradient: LinearGradient(colors: [
+              Colors.black,Colors.blueAccent,
+        ])),
         duration: const Duration(milliseconds: 500),
         child: ProjectDetail(
           index: index,

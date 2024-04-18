@@ -27,9 +27,9 @@ class About extends StatelessWidget {
               height: defaultPadding / 4,
             ),
             const Text(
-              'Flutter Developer & The Student of\nSoftware Engineering',
+              'Flutter Developer & The Student of\n Web Designer',
               textAlign: TextAlign.center,
-              style: TextStyle(fontWeight: FontWeight.w200, height: 1.5),
+              style: TextStyle(fontWeight: FontWeight.w200, height: 1.5,color: Colors.white),
             ),
             const Spacer(
               flex: 2,

@@ -23,21 +23,22 @@ class ProjectGrid extends StatelessWidget {
             margin: const EdgeInsets.symmetric(
                 vertical: defaultPadding, horizontal: defaultPadding),
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(30),
+                borderRadius: BorderRadius.circular(35),
                 gradient: const LinearGradient(colors: [
-                  Colors.pinkAccent,
+                  Colors.white,
+                  Colors.blueAccent,
                   Colors.blue,
                 ]),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.pink,
-                    offset: const Offset(-2, 0),
-                    blurRadius: controller.hovers[index] ? 20 : 10,
+                    color: Colors.white,
+                    offset: const Offset(-3, 0),
+                    blurRadius: controller.hovers[index] ? 8 : 3,
                   ),
                   BoxShadow(
                     color: Colors.blue,
-                    offset: const Offset(2, 0),
-                    blurRadius: controller.hovers[index] ? 20 : 10,
+                    offset: const Offset(1, 0),
+                    blurRadius: controller.hovers[index] ? 8 : 3,
                   ),
                 ]),
             child: ProjectStack(index: index)));
